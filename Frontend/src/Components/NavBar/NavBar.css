@@ -1,0 +1,59 @@
+body {
+    background-color: #f0f0f0; /* Set a default background color for the entire page */
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 20px; */
+    background-color: #f5f5f5; 
+    color: #333; 
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); 
+}
+
+.logo img {
+    width: 100px; 
+    height: auto;
+}
+
+.logo {
+    flex-shrink: 0; 
+}
+
+.static-picture img {
+    max-width: 100%;
+    height: auto;
+}
+
+.signup-btn {
+    background-color: #0052cc; 
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.signup-btn:hover {
+    background-color: #003d9e; 
+}
+
+.project-btn {
+    background-color: #0052cc; 
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.project-btn:hover {
+    background-color: #003d9e; 
+}
